@@ -1,0 +1,10 @@
+.navbar {
+    justify-content: left;
+    background-color: white;
+    padding: 20px 30px;
+    box-shadow: -1px 2px 2px rgb(193, 193, 193);
+}
+
+.nav-logo {
+    max-width: 100px;
+}
