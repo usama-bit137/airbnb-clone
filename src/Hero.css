@@ -1,0 +1,17 @@
+section {
+    padding: 20px;
+}
+.container {
+    display: flex; 
+    flex-direction: column;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.hero-text {
+    max-width: 400px;
+}
+
+
