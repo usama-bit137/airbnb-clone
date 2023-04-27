@@ -1,0 +1,27 @@
+.card-component {
+    display: column;
+    padding: 0 30px;
+}
+
+.info-container {
+    display: column; 
+}
+
+.image {
+    border-radius: 10px;
+}
+
+.card-info {
+    max-width: 250px;
+    font-size: 15px;
+}
+
+.card-info > * {
+    margin: 5px;
+}
+
+
+.card-price-bold {
+    font-weight: bold;
+}
+
