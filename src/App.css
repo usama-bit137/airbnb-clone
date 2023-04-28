@@ -22,3 +22,7 @@ body {
 .App-link {
   color: #61dafb;
 }
+
+.cardSlider {
+  display: flex;
+}

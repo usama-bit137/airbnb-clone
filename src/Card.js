@@ -1,17 +1,16 @@
 import React from "react";
 import "./Card.css"
 import star from "./216411_star_icon.png"
-import swimmer from "./katie.jpg"
-export default function Card() {
+export default function Card(props) {
     return (
         <section className="card-component">
             <img />
             <div className="info-container">
-                <img src={swimmer} alt="katie zaferes" className="image" width="250px"></img>
+                <img src= {props.img} alt= {props.altImg} className="image" width="250px"></img>
                 <div className="card-info">
-                    <p className="rating"><img src={star} alt="star" width="20px" /> 5.0 (6) - USA</p>
-                    <p className="card-title">Life Lessons with Katie Zaferes</p>
-                    <p className="card-price"><span className="card-price-bold">From $136</span>/person</p>
+                    <p className="rating"><img src={star} alt="star" width="20px" /> {props.rating} ({props.raters}) - {props.location}</p>
+                    <p className="card-title">{props.title}</p>
+                    <p className="card-price"><span className="card-price-bold">From {props.price}</span>/person</p>
                 </div>
                 <div></div>
                 <div></div>
