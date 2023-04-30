@@ -1,0 +1,22 @@
+[
+    {
+        "key": "card1",
+        "title": "Life Lessons with Katie Zaferes", 
+        "img": "katie.jpg", 
+        "altImg": "swimmer",
+        "rating": 5.0,
+        "raters": 6,
+        "price": 136,
+        "location": "USA"
+    },
+    {
+        "key": "card2",
+        "title": "Wedding Fair with Jim-Bob Sherman", 
+        "img": "wedding.jpg", 
+        "altImg": "newly-weds",
+        "rating": 4.9,
+        "raters": 10,
+        "price": 256,
+        "location": "USA"
+    }
+]
