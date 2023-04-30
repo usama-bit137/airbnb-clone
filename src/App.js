@@ -2,39 +2,35 @@ import './App.css';
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Card from "./Card"; 
-import swimmer from "./katie.jpg"
-import wedding from "./wedding.jpg"
+let cards = require("./cards.json"); // import JSON file
 
 function App() {
+  let cardsArray = cards.map((card) => {
+    return([
+      <Card 
+        key = {card.key} 
+        title = {card.title} 
+        img = {card.img} 
+        altImg = {card.altImg} 
+        rating = {card.rating} 
+        raters = {card.raters} 
+        price = {card.price} 
+        location = {card.location}
+      />
+    ]) 
+  })
+
   return (
     <div className="App">
       <header className="App-header">
         <Navbar />
         <Hero />
         <div className="cardSlider">
-          <Card 
-            title = "Life Lessons with Katie Zaferes"
-            img = {swimmer}
-            altImg = "swimmer"
-            rating = "5.0"
-            raters = "6"
-            price = "$136"
-            location = "USA"
-          />
-
-          <Card 
-            title = "Wedding Fair with Jim-Bob Sherman"
-            img = {wedding}
-            altImg = "newly weds"
-            rating = "4.9"
-            raters = "10"
-            price = "$156"
-            location = "USA"
-          />
+          {cardsArray}
         </div>
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
