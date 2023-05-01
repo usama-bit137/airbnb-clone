@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.css"
-import star from "./images/216411_star_icon.png"
+import star from "./216411_star_icon.png"
 
 export default function Card(props) {
     return (
