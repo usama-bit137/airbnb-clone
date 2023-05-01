@@ -1,6 +1,7 @@
 .card-component {
     display: column;
     padding: 0 30px;
+    position: relative;
 }
 
 .info-container {
@@ -25,3 +26,13 @@
     font-weight: bold;
 }
 
+.card-badge {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 15px;
+}

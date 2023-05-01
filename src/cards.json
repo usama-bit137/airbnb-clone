@@ -9,8 +9,8 @@
             "raters": 6
         },
         "price": 136,
-        "location": "USA", 
-        "openStops": 0
+        "location": "Online", 
+        "openSpots": 0
     },
     {
         "key": "card2",
@@ -22,8 +22,8 @@
             "raters": 10
         },
         "price": 256,
-        "location": "USA", 
-        "openStops": 5
+        "location": "Online", 
+        "openSpots": 5
     },
     {
         "key": "card3",
@@ -36,7 +36,7 @@
         },
         "price": 50,
         "location": "Norway",
-        "openStops": 10
+        "openSpots": 10
     },
     {
         "key": "card4",
@@ -49,6 +49,6 @@
         },
         "price": 25,
         "location": "Birmingham, UK", 
-        "openStops": 20
+        "openSpots": 20
     }
 ]
