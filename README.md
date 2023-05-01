@@ -1,4 +1,5 @@
 # Airbnb Clone
+For a view of the full build of the website, [check this out](https://usama-bit137.github.io/airbnb-clone/).
 ## Introduction
 This is a quick project which is all about creating a clone of Airbnb using React components.
 
