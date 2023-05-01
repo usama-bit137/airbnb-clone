@@ -18,5 +18,25 @@
         "raters": 10,
         "price": 256,
         "location": "USA"
+    },
+    {
+        "key": "card3",
+        "title": "Group Mountain Biking", 
+        "img": "dirtbike.jpg", 
+        "altImg": "bike",
+        "rating": 4.8,
+        "raters": 2,
+        "price": 50,
+        "location": "Norway"
+    },
+    {
+        "key": "card4",
+        "title": "Great British Bakeoff", 
+        "img": "gbb.jpg", 
+        "altImg": "bake",
+        "rating": 4.9,
+        "raters": 20,
+        "price": 25,
+        "location": "Birmingham, UK"
     }
 ]
