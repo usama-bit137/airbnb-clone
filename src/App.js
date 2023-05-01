@@ -3,7 +3,6 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Card from "./Card"; 
 let cards = require("./cards.json"); // import JSON file
-
 function App() {
   let cardsArray = cards.map((card) => {
     return([
@@ -12,10 +11,10 @@ function App() {
         title = {card.title} 
         img = {card.img} 
         altImg = {card.altImg} 
-        rating = {card.rating} 
-        raters = {card.raters} 
+        stats = {card.stats} 
         price = {card.price} 
         location = {card.location}
+        openSpots = {card.openSpots}
       />
     ]) 
   })
