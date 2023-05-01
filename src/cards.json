@@ -4,39 +4,51 @@
         "title": "Life Lessons with Katie Zaferes", 
         "img": "katie.jpg", 
         "altImg": "swimmer",
-        "rating": 5.0,
-        "raters": 6,
+        "stats": {
+            "rating": 5.0,
+            "raters": 6
+        },
         "price": 136,
-        "location": "USA"
+        "location": "USA", 
+        "openStops": 0
     },
     {
         "key": "card2",
         "title": "Wedding Fair with Jim-Bob Sherman", 
         "img": "wedding.jpg", 
         "altImg": "newly-weds",
-        "rating": 4.9,
-        "raters": 10,
+        "stats": {
+            "rating": 4.9,
+            "raters": 10
+        },
         "price": 256,
-        "location": "USA"
+        "location": "USA", 
+        "openStops": 5
     },
     {
         "key": "card3",
         "title": "Group Mountain Biking", 
         "img": "dirtbike.jpg", 
         "altImg": "bike",
-        "rating": 4.8,
-        "raters": 2,
+        "stats": {
+            "rating": 4.8,
+            "raters": 2
+        },
         "price": 50,
-        "location": "Norway"
+        "location": "Norway",
+        "openStops": 10
     },
     {
         "key": "card4",
         "title": "Great British Bakeoff", 
         "img": "gbb.jpg", 
         "altImg": "bake",
-        "rating": 4.9,
-        "raters": 20,
+        "stats": {
+            "rating": 4.9,
+            "raters": 20
+        },
         "price": 25,
-        "location": "Birmingham, UK"
+        "location": "Birmingham, UK", 
+        "openStops": 20
     }
 ]
