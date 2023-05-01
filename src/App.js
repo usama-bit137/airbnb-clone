@@ -8,13 +8,7 @@ function App() {
     return([
       <Card 
         key = {card.key} 
-        title = {card.title} 
-        img = {card.img} 
-        altImg = {card.altImg} 
-        stats = {card.stats} 
-        price = {card.price} 
-        location = {card.location}
-        openSpots = {card.openSpots}
+        item = {card}
       />
     ]) 
   })
